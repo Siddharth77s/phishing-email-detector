@@ -42,3 +42,4 @@ This project is a simple yet powerful **phishing email detection system** built 
 ```bash
 pip install -r requirements.txt
 # phishing-email-detector
+
