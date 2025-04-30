@@ -1,45 +1,23 @@
-# 📧 Phishing Email Detector | Machine Learning App 🔐
+# Phishing Email Detector
 
-This project is a simple yet powerful **phishing email detection system** built using **Natural Language Processing (NLP)** and **Random Forest Classification**. It allows users to input an email's subject and body, and the app predicts whether the email is a phishing attempt or a legitimate message.
+A Python-based machine learning project to classify phishing emails. This project uses a **Random Forest Classifier** to determine whether an email is legitimate or a phishing attempt based on its content.
 
----
-<pre><code>``` 📁 phishing-email-detector/ ├── phishing_gui.py # Streamlit web app code ├── phishing_model.ipynb # Model training (Colab / Jupyter Notebook) ├── requirements.txt # List of required Python libraries ├── README.md # Project overview and instructions ``` </code></pre>
+## Project Structure
 
----
+- **phishing_detector.py**: The main Python script with the phishing email detection logic.
+- **requirements.txt**: A list of required Python libraries to run the project.
+- **README.md**: This file, providing instructions and information about the project.
 
-## 📌 Features
-- 🧠 Machine learning model trained on real-world email samples
-- ✍️ Takes email **subject + body** as user input
-- 🔍 Uses **TF-IDF vectorization** and **n-grams** for feature extraction
-- ✅ Classifies emails as either **Phishing** or **Legitimate**
-- 🌐 Deployed with a professional GUI using **Streamlit**
+## Features
 
----
+- Detect phishing attempts from the email subject and body.
+- Uses **Random Forest Classifier** for classification.
+- Simple text-based interface for testing emails.
 
-## 🧪 Sample Test Inputs
+## Installation
 
-| Subject                                       | Body                                               | Result     |
-|-----------------------------------------------|----------------------------------------------------|------------|
-| "Urgent! Reset Your Password Now"             | "Your account was compromised. Click here to fix." | ⚠️ Phishing |
-| "Team Sync at 3 PM"                           | "Join Zoom using the link in the invite."          | ✅ Legit    |
-| "Congratulations! You've won a $1000 gift card!" | "Click here to claim your prize now!"             | ⚠️ Phishing |
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Siddharth77s/phishing-email-detector.git
 
----
-
-## 🧠 How It Works
-
-1. **TF-IDF Vectorization**: Transforms text data into numerical features
-2. **Random Forest Classifier**: Learns from past emails to classify new ones
-3. **Streamlit GUI**: Web app where users can input and test email messages
-
----
-
-## 💻 Run Locally
-
-### 📋 Requirements
-- Python 3.8+
-- Install dependencies:
-```bash
 pip install -r requirements.txt
-# phishing-email-detector
-
