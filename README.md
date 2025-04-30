@@ -3,7 +3,7 @@
 This project is a simple yet powerful **phishing email detection system** built using **Natural Language Processing (NLP)** and **Random Forest Classification**. It allows users to input an email's subject and body, and the app predicts whether the email is a phishing attempt or a legitimate message.
 
 ---
-
+<pre><code>``` 📁 phishing-email-detector/ ├── phishing_gui.py # Streamlit web app code ├── phishing_model.ipynb # Model training (Colab / Jupyter Notebook) ├── requirements.txt # List of required Python libraries ├── README.md # Project overview and instructions ``` </code></pre>
 
 ---
 
